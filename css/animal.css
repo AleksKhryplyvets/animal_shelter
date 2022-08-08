@@ -1,0 +1,49 @@
+.animal_card {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .card {
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  .card_img {
+    width: 60%;
+    height: 60%;
+  }
+  
+  .card_3 {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .card_name {
+    margin: 15px;
+    font-weight: 700;
+  }
+  
+  .card > ul {
+    margin: 20px 0;
+  }
+  
+  .card > ul > li {
+    padding: 10px 0;
+  }
+  
+  .card > ul > li > span {
+    font-weight: 700;
+  }
+  
+  

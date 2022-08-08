@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal shelter</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="img/logo.png" alt="a_little_dog" />
+        </div>
+        <div class="main_header">
+          <h1>Харківський міський притулок для безхатніх тварин</h1>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#about_us">Про нас </a></li>
+            <li>
+              <a class="nav-link" href="#find_an_animal"
+                >Тварини,які шукають будинок</a
+              >
+            </li>
+            <li><a class="nav-link" href="#footer"> Контакти</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="main_content" id="about_us">
+        <div class="container">
+          <div class="video">
+            <iframe
+              id="video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/gIm6un0w0ls"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p class="subheader">
+              Песики та котики з Притулку для безхатніх тварин комунального
+              підприємства «Центр поводження з тваринами» шукають гоcподарів!
+
+              <span class="subheader_text">
+                А якщо Ви хочете ближче познайомитись з песиками чи котиками
+                притулку та подарувати їм трішки тепла та любові, запрошуємо Вас
+                на «День відкритих дверей» щонеділі з 10-00 до 14-00 запис за
+                телефоном 0(800) 50 43 13</span
+              >
+            </p>
+          </div>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              id="email"
+              type="email"
+              placeholder="Пошук по кличці  або номеру жетона"
+              name="email"
+              required
+            />
+            <input id="submit" type="submit" />
+          </form>
+        </div>
+      </section>
+
+      <section class="animal_card" id="find_an_animal">
+        <div class="container">
+          <div class="card">
+            <div class="card_3">Анкета №: 22022201</div>
+            <div class="card_name">НЕЛТОН</div>
+            <div class="card_img">
+              <img class="card_img" src="img/nelton.jpg" alt="dog" />
+            </div>
+            <ul class="list_card">
+              <li><span> Вид тварини:</span> пес</li>
+              <li><span>Дата надходження тварини:</span> 22.02.22</li>
+              <li><span>Вік тварини на дату надходження: </span>2 роки</li>
+            </ul>
+            <button class="btn">Більше інформації</button>
+          </div>
+
+          <div class="card">
+            <div class="card_3">Анкета №: 520062202</div>
+            <div class="card_name">ЛЮСІ</div>
+            <div class="card_img">
+              <img class="card_img" src="img/lusi.jpg" alt="cat" />
+            </div>
+            <ul lass="list_card">
+              <li><span>Вид тварини:</span> кіт/кішка</li>
+              <li><span>Дата надходження тварини:</span> 20.06.22</li>
+              <li><span>Вік тварини на дату надходження:</span> 2 роки</li>
+            </ul>
+            <button class="btn">Більше інформації</button>
+          </div>
+
+          <div class="card">
+            <div class="card_3">Анкета №: 16062206</div>
+            <div class="card_name">РОЗА</div>
+            <div class="card_img">
+              <img class="card_img" src="img/roza.jpg" alt="dog" />
+            </div>
+            <ul lass="list_card">
+              <li><span>Вид тварини:</span> пес</li>
+              <li><span>Дата надходження тварини:</span> 16.06.22</li>
+              <li><span>Вік тварини на дату надходження: </span>3 роки</li>
+            </ul>
+            <button class="btn">Більше інформації</button>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <ul>
+          <li>місто Харків</li>
+          <li>
+            <a href="tel:0800504313"> Телефонуйте нам: 0(800) 50 43 13</a>
+          </li>
+          <li><a href="#">Політика конфіденційності</a></li>
+        </ul>
+        <span>Alex Khryplyvers 2022, Animal shelter</span>
+      </footer>
+    </div>
+  </body>
+</html>
