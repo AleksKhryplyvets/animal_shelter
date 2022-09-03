@@ -1,0 +1,15 @@
+.item-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-carousel button {
+  padding: 10px;
+  margin: 20px;
+}
+
+.item-carousel__slides img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
